@@ -41,7 +41,7 @@ async function run() {
         });
       }
 
-      // Hash the password
+      // Hash the password set
       const hashedPassword = await bcrypt.hash(password, 10);
 
       // Insert user into the database
